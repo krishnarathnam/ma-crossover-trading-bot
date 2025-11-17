@@ -1,0 +1,27 @@
+{
+  "trading": {
+    "symbol": "XAUUSD",
+    "timeframe": "H1",
+    "lot_size": 0.01,
+    "risk_reward_ratio": 2.0,
+    "atr_multiplier": 1.5
+  },
+  "strategy": {
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "adx_period": 14,
+    "adx_threshold": 20,
+    "rsi_period": 14,
+    "rsi_upper": 65,
+    "rsi_lower": 35,
+    "supertrend_atr_period": 14,
+    "supertrend_multiplier": 3
+  },
+  "bot_settings": {
+    "magic_number": 123456,
+    "max_slippage": 10,
+    "bars_to_fetch": 200,
+    "check_interval_minutes": 60
+  }
+}
+
